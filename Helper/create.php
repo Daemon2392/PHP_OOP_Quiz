@@ -38,6 +38,8 @@
 
         //Method-Solution
         abstract public function createSolution(): bool;
+
+        //Get
         public function getSolution()
         {
             return $this -> solution; 
