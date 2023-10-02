@@ -8,12 +8,12 @@ require_once './Helper/create.php';
     {
         public function createQuestion()
         {
-            echo  "Question is :";
+            echo  "Question is :</br></br>";
             return  "";
         }
-        public function createAnsware(): string
+        public function createAnsware()
         {
-            echo "Answare is :";
+            echo "Answare is :</br></br>";
             return "";
         }
         public function createSolution(): bool

@@ -8,16 +8,15 @@ require_once './Helper/create.php';
     {
         public function createQuestion()
         {
-            echo "Question is :";
-            echo "What of this Therms are 'Access Modifier' in PHP ?</br></br>";
-
+            echo "Question is :</br></br>";
+            echo " - What of this Therms are 'Access Modifier' in PHP ?</br></br>";
             
-
-            return  "";
+            require './Question/Developement/htmlForDevelope.php';
+            return;
         }
         public function createAnsware(): string
         {
-            echo "Answare is :";
+            echo "Answare is :</br></br>";
             return "";
         }
         public function createSolution(): bool

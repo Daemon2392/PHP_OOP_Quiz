@@ -27,7 +27,7 @@
         }
 
         //Method-Answare
-        abstract public function createAnsware(): string;
+        abstract public function createAnsware();
 
         //Get
         public function getAnsware()

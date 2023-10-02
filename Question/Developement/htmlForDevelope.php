@@ -6,22 +6,27 @@
     <title></title>
 </head>
 <body>
-    <form>
-        <input type="checkbox">
-        <ul>
+    <div>
+        <form>
             <li>
+                <input type="checkbox">
                 Protected
             </li>
             <li>
+                <input type="checkbox">
                 Private
             </li>
             <li>
+                <input type="checkbox">
                 Public
             </li>
             <li>
+                <input type="checkbox">
                 Abstract
             </li>
-        </ul>
-    </form>
+            </br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
 </body>
 </html>
