@@ -7,7 +7,7 @@
 </head>
 <body>
     <div>
-        <form>
+        <form method="post">
             <li>
                 <input type="checkbox">
                 Protected
