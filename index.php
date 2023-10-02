@@ -1,8 +1,6 @@
 <?php
-// require_once './Question/Math/mathQuestion.php';
-// require_once './Question/Math/htmlForMath.php';
+require_once './Question/Math/mathQuestion.php';
 require_once './Question/Developement/developeQuestions.php';
-// require_once './Question/Developement/htmlForDevelope.php';
 ?>
 
 
@@ -17,7 +15,6 @@ require_once './Question/Developement/developeQuestions.php';
 
     <?php
         $question = new DevelopeQuestion;
-
         $question -> createQuestion();
         echo "</br></br></br>";
 
@@ -29,20 +26,21 @@ require_once './Question/Developement/developeQuestions.php';
         $question -> createSolution();
         echo "</br></br></br>";
         
-        //-----------------------------------------------------------
+        echo("-----------------------------------------------------------");
 
-        // $question = new MathQuestion;
+        echo "</br></br></br>";
+        $question = new MathQuestion;
         
-        // $question -> createQuestion();
-        // echo "</br></br></br>";
+        $question -> createQuestion();
+        echo "</br></br></br>";
         
-        // $answare = $question;
-        // $question -> createAnsware();
-        // echo "</br></br></br>";
+        $answare = $question;
+        $question -> createAnsware();
+        echo "</br></br></br>";
         
-        // $solution = $question;
-        // $question -> createSolution();
-        // echo "</br></br></br>";
+        $solution = $question;
+        $question -> createSolution();
+        echo "</br></br></br>";
         
 
         
