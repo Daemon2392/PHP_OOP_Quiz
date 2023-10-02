@@ -1,26 +1,24 @@
 <?php
-
     abstract class Question
     {
         //Propreties
         public $question;
-        public $answare;
+        public $answer;
         public $solution;
 
 
         //Constructor
-        public function __constructor($question, $answare, $solution)
+        public function __constructor($question, $answer, $solution)
         {
             $this -> question = $question;
-            $this -> answare = $answare;
+            $this -> answer = $answer;
             $this -> solution = $solution;
         }
 
         //Methods
         
         //Method-Question
-        abstract public function createQuestion(): string; 
-        
+        abstract public function createQuestion(); 
 
         //Get
         public function getQuestion()
@@ -34,7 +32,7 @@
         //Get
         public function getAnsware()
         {
-            return $this -> answare;
+            return $this -> answer;
         }
 
         //Method-Solution
