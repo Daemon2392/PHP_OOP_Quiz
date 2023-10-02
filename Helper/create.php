@@ -1,6 +1,6 @@
 <?php
 
-    abstract class Helper
+    abstract class Question
     {
         //Propreties
         public $question;
@@ -31,6 +31,7 @@
         //Method-Answare
         abstract public function createAnsware(): string;
 
+        //Get
         public function getAnsware()
         {
             return $this -> answare;
