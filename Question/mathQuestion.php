@@ -9,7 +9,6 @@ require_once './Helper/create.php';
         public function createQuestion(): string
         {
             echo  "Question is :";
-            
             return  "";
         }
         public function createAnsware(): string
